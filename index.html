@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css"/>
     <title>AI Quotes Generator</title>
@@ -12,15 +13,12 @@
     <h1>AI life quotes generator</h1>
     </header>
     <main>
-        <form>
+        <form id="quote-generator-form">
             <input type="text" placeholder="Enter the key word of the quote" autofocus required autocomplete="off"
             class="instructions"/>
             <input type="submit" class="submit-button"/>
         </form>
-        <div class="quote">
-            The quote will go here
-            <br />
-            The quote will go here
+        <div class="quote" id="quote">
             </div>
     </main>
    <script src="src/index.js"></script> 
@@ -29,13 +27,13 @@
           <a href="https://github.com/Slaib2" target="_blank">Sylvia Bhatasara</a>
           and is open sourced
           <a
-            href=""
+            href="https://github.com/Slaib2/Inspirational-life-quotes-generator"
             target="_blank"
           > on GitHub</a
           >
           and
           <a
-            href=""
+            href="https://slai-lifequotes-ai-generator.netlify.app/"
             target="_blank"
             >hosted on Netlify</a>
         </footer>
