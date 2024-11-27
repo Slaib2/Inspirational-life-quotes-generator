@@ -7,17 +7,21 @@
     <title>AI Quotes Generator</title>
 </head>
 <body>
-    <header>
-    <h1>AI Inspirational quotes generator</h1>
+     <div class="container">
+    <header> 
+    <h1>AI life quotes generator</h1>
     </header>
     <main>
         <form>
-            <input type="text" placeholder="Enter the key word of the inspirational life quote" autofocus required autocomplete="off"/>
-            <input type="submit"/>
-            <div>The quote will go here</div>
+            <input type="text" placeholder="Enter the key word of the quote" autofocus required autocomplete="off"
+            class="instructions"/>
+            <input type="submit" class="submit-button"/>
+        </form>
+        <div class="quote">
+            The quote will go here
             <br />
             The quote will go here
-        </form>
+            </div>
     </main>
    <script src="src/index.js"></script> 
 </body>
@@ -35,5 +39,5 @@
             target="_blank"
             >hosted on Netlify</a>
         </footer>
-
+    </div>
 </html>
