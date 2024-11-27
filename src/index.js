@@ -3,7 +3,7 @@ function generateQuote(event) {
   let quoteElement = document.querySelector("#quote");
 
   new Typewriter("#quote", {
-    strings: ["You have to believe in yourself when no one else does."],
+    strings: "You have to believe in yourself when no one else does.",
     autoStart: true,
     delay: 2,
     cursor: "",
