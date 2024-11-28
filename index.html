@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css"/>
     <title>AI Quotes Generator</title>
@@ -14,8 +15,9 @@
     </header>
     <main>
         <form id="quote-generator-form">
-            <input type="text" placeholder="Enter the key word of the quote" autofocus required autocomplete="off"
-            class="instructions"/>
+            <input type="text" placeholder="Enter the theme of the inspirational life quote" autofocus required autocomplete="off"
+            class="instructions"
+            id="user-instructions"/>
             <input type="submit" class="submit-button"/>
         </form>
         <div class="quote" id="quote">
